@@ -1,0 +1,183 @@
+\documentclass{tuna-report}
+\usepackage{codespace}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage[super]{nth}
+\usepackage{longtable}
+\usepackage{listings} % For code snippets 
+
+% \usepackage[colorlinks]{hyperref}
+%\usepackage[printonlyused,withpage]{acronym} %abbreviations
+\usepackage{acro}
+% Sub-preambles
+% https://github.com/MartinScharrer/standalone
+
+% Encodings
+\usepackage{gensymb,textcomp}
+
+% Better tables
+% Wide tables go to https://tex.stackexchange.com/q/332902
+\usepackage{array,multicol,multirow,siunitx,tabularx}
+
+% Better enum
+\usepackage{enumitem}
+
+% Graphics
+\usepackage{caption,float}
+
+% Allow setting >max< width of figure
+% 'export' allows adjustbox keys in \includegraphics
+% For demonstration purposes, remove in production
+\usepackage[export]{adjustbox}
+
+% For demonstration purposes, remove in production
+\usepackage{mwe}
+
+
+% Configurations
+\newcounter{memberrowno}
+\setcounter{memberrowno}{0}
+\setcounter{tocdepth}{5}
+\reportlayout%
+
+% Override (some) default values
+\ocoursename{Bachelor Thesis in Computer Science}
+\title{Practical Training Report}
+
+
+% ================== Custom commands
+\newcommand*\mean[1]{\bar{#1}}
+
+% Set up the command for a blank page
+\usepackage{afterpage}
+
+\newcommand\blankpage{%
+    \null
+    \
+    \vfil
+    \hfil (Intentionally left blank) \hfil
+    \vfil
+    \thispagestyle{empty}%
+    % \addtocounter{page}{-1}%
+    \newpage}
+    
+   
+% ========================================
+
+\graphicspath{ {graphics/} }
+
+% Disable hypcap for specific captions
+\captionsetup[figure]{hypcap=false}
+
+% =================DECLARE ACRONYMS=======================
+\DeclareAcronym{usa}{
+	short=USA,
+	long=United States of America,
+}
+\DeclareAcronym{eu}{
+	short=EU,
+	long=European Union,
+}
+\DeclareAcronym{ussr}{
+	short=USSR,
+	long=Union of Soviet Socialist Republics,
+}
+
+% ================ STYLE FOR JS PROGRAMMING LANGUAGE ===============
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\definecolor{magenta}{rgb}{1,0,1} % Magenta for JavaScript keywords
+
+
+% Define JavaScript as a language in listings
+\lstdefinelanguage{JavaScript}{
+	keywords={break, case, catch, continue, debugger, default, delete, do, else, finally, for, function, if, in, instanceof, new, return, switch, this, throw, try, typeof, var, let, const, while, with, yield, async, await, of},
+	keywordstyle=\color{magenta}\bfseries, % Magenta for keywords
+	ndkeywords={class, export, boolean, throw, implements, import, this},
+	ndkeywordstyle=\color{magenta}, % Magenta for additional keywords
+	identifierstyle=\color{black},  % Default color for variables
+	sensitive=true,                 % Case-sensitive
+	comment=[l]{//},                % Single-line comments
+	morecomment=[s]{/*}{*/},        % Multi-line comments
+	commentstyle=\color{codegreen}\ttfamily, % Comments in green
+	stringstyle=\color{codepurple},          % Strings in purple
+	morestring=[b]',                % Single quotes for strings
+	morestring=[b]"                 % Double quotes for strings
+}
+
+
+\lstset{
+	language=JavaScript,               % Set JavaScript as the language
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2,
+	frame=single
+}
+
+\renewcommand{\lstlistingname}{Code snippet}	% For lisitngs caption name
+\renewcommand{\lstlistlistingname}{List of Code Snippets}	% For codes listing table title
+
+% ========================= BEGIN DOCUMENT =======================
+\begin{document}
+	
+\coverpage
+\clearpage
+\afterpage{\blankpage}
+\include{chapters/1_declarations}
+\include{chapters/2_supervisor_confirmation}
+
+
+%\printacronyms
+%	\newpage
+\listoffigures
+	\newpage
+\listoftables
+	\newpage
+\lstlistoflistings
+	\newpage
+	
+\tableofcontents
+
+% \newpage
+
+
+
+\include{chapters/3_acknowledgments}
+\include{chapters/4_abstract}
+\include{chapters/main/1_company_overview}
+\include{chapters/main/2_internship_description}
+\include{chapters/main/3_internship_phases}
+\include{chapters/main/3.5_internship_project_phase}
+\include{chapters/main/4_internship_output}
+\include{chapters/main/5_conclusion}
+\include{chapters/main/6_appendix}
+
+
+% citation - references
+% \printbibliography
+% \bibliographystyle{plainurl-custom}
+% \bibliography{refs.bib}
+% \nocite{*}
+
+
+\end{document}

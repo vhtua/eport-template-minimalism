@@ -1,0 +1,1 @@
+$ENV{'BSTINPUTS'}='./bst//:' . $ENV{'BSTINPUTS'};

@@ -1,0 +1,73 @@
+\begin{thebibliography}{10}
+
+\bibitem{why_openproject}
+Rebecca Bernsen.
+\newblock {10 reasons to choose OpenProject as your project management
+  software}, November 2020.
+\newblock URL:
+  \url{https://www.openproject.org/blog/10-reasons-choose-openproject/}.
+
+\bibitem{company_overview_about_us}
+Bosch.
+\newblock Company overview, 2023.
+\newblock URL: \url{https://www.bosch.com/company/}.
+
+\bibitem{ubuntu_server}
+Canonical.
+\newblock {Ubuntu Server}, 2023.
+\newblock URL: \url{https://ubuntu.com/server}.
+
+\bibitem{requirement_analysis}
+Andrew Christian.
+\newblock {Requirements Analysis Process And Techniques}, April 2024.
+\newblock URL:
+  \url{https://www.requiment.com/requirements-analysis-process-and-techniques/}.
+
+\bibitem{mysql_comparison_storage_engines}
+Frederic Descamps.
+\newblock {Still using MyISAM ? It is time to switch to InnoDB !}, March 2023.
+\newblock URL:
+  \url{https://blogs.oracle.com/mysql/post/still-using-myisam-it-is-time-to-switch-to-innodb}.
+
+\bibitem{why_flask}
+Lauren Fox.
+\newblock {Why Should You Use Flask Framework For Web Development?}, September
+  2023.
+\newblock URL:
+  \url{https://medium.com/@lauren-fox/why-should-you-use-flask-framework-for-web-development-f5a7233e17a6}.
+
+\bibitem{structure_cpp}
+Shivani Goyal.
+\newblock {Structure of C++ Programs Explained With Examples}, 2024.
+\newblock URL: \url{https://unstop.com/blog/structure-of-cpp-program}.
+
+\bibitem{ms_project}
+Microsoft.
+\newblock {Microsoft Project}, 2023.
+\newblock URL:
+  \url{https://www.microsoft.com/en-us/microsoft-365/project/project-management-software}.
+
+\bibitem{why_vscode}
+Microsoft.
+\newblock {Why did we build Visual Studio Code?}, June 2024.
+\newblock URL: \url{https://code.visualstudio.com/Docs/editor/whyvscode}.
+
+\bibitem{why_mysql_2}
+Quasa.io.
+\newblock {Top 7 Reasons to Choose MySQL for Organizing Your Web Database},
+  December 2022.
+\newblock URL:
+  \url{https://quasa.io/media/top-7-reasons-to-choose-mysql-for-organizing-your-web-database}.
+
+\bibitem{why_mysql}
+Hardik Shah.
+\newblock {The 7 Best Reasons to Choose MySQL for Organizing Your Web
+  Database}, October 2021.
+\newblock URL: \url{https://devm.io/databases/mysql-7-best-reasons-175591}.
+
+\bibitem{mvc}
+MDN web docs.
+\newblock {MVC}, December 2023.
+\newblock URL: \url{https://developer.mozilla.org/en-US/docs/Glossary/MVC}.
+
+\end{thebibliography}

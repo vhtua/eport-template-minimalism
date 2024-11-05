@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: report.aux
+A level-1 auxiliary file: chapters/1_declarations.aux
+A level-1 auxiliary file: chapters/2_supervisor_confirmation.aux
+A level-1 auxiliary file: chapters/3_acknowledgments.aux
+A level-1 auxiliary file: chapters/4_abstract.aux
+A level-1 auxiliary file: chapters/main/1_company_overview.aux
+A level-1 auxiliary file: chapters/main/2_internship_description.aux
+A level-1 auxiliary file: chapters/main/3_internship_phases.aux
+A level-1 auxiliary file: chapters/main/3.5_internship_project_phase.aux
+A level-1 auxiliary file: chapters/main/4_internship_output.aux
+A level-1 auxiliary file: chapters/main/5_conclusion.aux
+A level-1 auxiliary file: chapters/main/6_appendix.aux
+The style file: plainurl.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: refs.bib
+You've used 12 entries,
+            2943 wiz_defined-function locations,
+            696 strings with 7013 characters,
+and the built_in function-call counts, 3997 in all, are:
+= -- 396
+> -- 96
+< -- 0
++ -- 36
+- -- 24
+* -- 126
+:= -- 538
+add.period$ -- 36
+call.type$ -- 12
+change.case$ -- 48
+chr.to.int$ -- 0
+cite$ -- 12
+duplicate$ -- 108
+empty$ -- 493
+format.name$ -- 24
+if$ -- 1129
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 0
+newline$ -- 63
+num.names$ -- 24
+pop$ -- 168
+preamble$ -- 1
+purify$ -- 36
+quote$ -- 0
+skip$ -- 335
+stack$ -- 0
+substring$ -- 60
+swap$ -- 12
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 48
+warning$ -- 0
+while$ -- 24
+width$ -- 14
+write$ -- 122

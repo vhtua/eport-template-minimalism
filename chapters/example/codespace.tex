@@ -1,0 +1,43 @@
+\section{Codeblocks}
+There are several ways to embed code in a \LaTeX{} file.
+Here are inline code, embedded codeblock, and external import.
+
+\begin{itemize}
+  \item External import
+
+  \inputcode[highlightlines={1,10-13}]{Python}{code/example.py}
+
+  \item With custom line range
+
+  \inputcode[firstline=10,lastline=13]{Python}{code/example.py}
+
+  \item Embedded
+
+  \begin{code}{Python}
+  class iostream:
+      def __lshift__(self, other):
+          print(other, end='')
+          return self
+
+      def __repr__(self):
+          return ''
+  \end{code}
+
+  \item Inline
+
+  \mintinline{Python}{print('Hello, world!')}
+\end{itemize}
+
+You can also define your custom inline as \url{https://tex.stackexchange.com/a/148479}.
+
+This is one way to input algorithms.
+
+\begin{algorithm}[H]
+  \caption{QL algorithm}
+  Initialize \(Q\)-table values \((Q(s, a))\) arbitrarily\;
+  Initialize a state \((s_t)\)\;
+  Repeat Steps~\ref{alg:step_4} to~\ref{alg:step_6} until learning period ends\;
+  Choose an action \((a_t)\) for the current state \((s_t)\) using an exploratory policy\; \nllabel{alg:step_4}
+  Take action \((a_t)\) and observe the new state \((s_t + 1)\) and reward \((r_t + 1)\)\;
+  Update \(Q\)-value\; \nllabel{alg:step_6}
+\end{algorithm}
