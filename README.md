@@ -1,7 +1,8 @@
-# LaTex Report Template: Minimalism 
-This is the LaTex Report template I often use for my report document at university
+# LaTex Report Template: Minimalism
+### Author: Vu Hoang Tuan Anh
+This is the LaTex Report template I often use for my report document at university.
 
-- Author: Vu Hoang Tuan Anh
+If you like my work, please give this repository 1 star. Thank you so much ❤️🤗
 
 ## Preview
 ### Cover page
