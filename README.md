@@ -4,7 +4,20 @@ This is the LaTex Report template I often use for my report document at universi
 - Author: Vu Hoang Tuan Anh
 
 ## Preview
+### Cover page
+<img src="docs/img/cover-page.png" alt="Cover page" width="50%" >
 
+### Table of contents
+<img src="docs/img/table-of-contents.png" alt="Cover page" width="50%" >
+
+### Chapters
+<img src="docs/img/chapter.png" alt="Cover page" width="50%" >
+
+### Table
+<img src="docs/img/table.png" alt="Cover page" width="50%" >
+
+### Reference
+<img src="docs/img/reference.png" alt="Cover page" width="50%" >
 
 ## Requirements
 - TeX Live 2024 (pdfTeX 3.141592653-2.6-1.40.26 included)
@@ -23,4 +36,11 @@ This is the LaTex Report template I often use for my report document at universi
   pdflatex.exe -synctex=1 -interaction=nonstopmode -shell-escape %.tex
   ```
 > [!NOTE]  
-> Using ```shell-escape``` flag to allow external library and codes injected to the TeX document
+> Using ```shell-escape``` flag to allow external library and codes injected to the TeX document.
+
+
+- Or you can build directly by using the following command in the terminal:
+
+  ```shell
+  pdflatex -shell-escape report.tex
+  ```
