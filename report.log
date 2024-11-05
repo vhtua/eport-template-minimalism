@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.28)  5 NOV 2024 22:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.28)  5 NOV 2024 22:45
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2372,10 +2372,10 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: A0B6C0AA9AAEDAA911E11C66421A00AC;7422.
  ) 
 Here is how much of TeX's memory you used:
- 42473 strings out of 474116
- 873836 string characters out of 5747717
+ 42467 strings out of 474116
+ 873629 string characters out of 5747717
  1944190 words of memory out of 5000000
- 63953 multiletter control sequences out of 15000+600000
+ 63947 multiletter control sequences out of 15000+600000
  583794 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,25n,107p,1467b,1151s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2385,7 +2385,7 @@ t/fonts/type1/vntex/vnr/vnr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/vntex
 /vnr/vnr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnti12.pfb><c:/
 texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vntt12.pfb><c:/texlive/2024/texmf
 -dist/fonts/type1/vntex/vnr/vntt8.pfb>
-Output written on report.pdf (41 pages, 667765 bytes).
+Output written on report.pdf (41 pages, 667730 bytes).
 PDF statistics:
  656 PDF objects out of 1000 (max. 8388607)
  563 compressed objects within 6 object streams
